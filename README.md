@@ -255,14 +255,15 @@ J'ai utilisé l'IA comme un binôme de développement, et je préfère être tra
   Il a d'abord produit un prototype en PHP natif (dossier `archive/`), puis j'ai demandé de le refaire sur ma stack.
 
 **Ce que j'ai fait**
+### Ce que j'ai fait
 
-- **Le choix de la stack** : Laravel + API REST + React + Tailwind + MySQL, des technologies que je veux maîtriser et défendre.
-- **Le cadrage** : le cahier des charges, la grille de scoring sur 100 et les catégories, que l'IA a ensuite implémentés tels quels.
-- **Les demandes fonctionnelles** : l'export CSV du classement et la fiche candidat en PDF.
-- **L'installation et les essais** dans mon environnement (Laragon, MySQL), y compris le diagnostic d'un conflit de port.
-- [À COMPLÉTER : ce que vous avez modifié vous-même dans le code, ce que vous avez vérifié ou testé à la main, les choix que vous avez remis en question.]
-- [À COMPLÉTER : ce que ce projet vous a appris, par exemple les fonctions de fenêtre SQL pour le rang, les Form Requests Laravel, les limiteurs de débit, l'injection de formules dans un CSV.]
+- **Le choix de la stack** : Laravel pour gérer l'API, React pour l'interface, Tailwind CSS pour la mise en forme et MySQL pour stocker les données. Ce sont des technologies que je souhaite approfondir et que je peux réutiliser sur d'autres projets.
+- **Le cadrage** : j'ai défini le fonctionnement attendu du système de qualification, les critères de notation sur 100 et les catégories de classement. Ces règles ont ensuite été implémentées dans le projet.
+- **Les demandes fonctionnelles** : j'ai demandé l'ajout de l'export du classement en CSV et de la fiche candidat en PDF afin de faciliter le travail du responsable.
+- **L'installation et les essais** : j'ai préparé l'environnement de travail avec Laragon et MySQL, installé les dépendances et effectué des essais pour vérifier le fonctionnement de l'application.
+- **La vérification du résultat** : j'ai utilisé les tests et les essais de l'application pour contrôler les principales fonctionnalités, notamment le calcul des scores, le classement et la gestion des erreurs. J'ai aussi cherché à comprendre les choix techniques afin de pouvoir expliquer le fonctionnement général du projet.
+- **Les apprentissages** : ce projet m'a permis de mieux comprendre l'intérêt de séparer les règles métier du reste du code, de tester le calcul du score indépendamment de la base de données et de conserver une explication pour chaque critère. J'ai également découvert des mécanismes comme le classement SQL, la validation des données côté serveur et la limitation des tentatives de connexion.
 
-**Mon regard sur cette méthode**
+### Mon regard sur cette méthode
 
-[À COMPLÉTER en 2 ou 3 phrases : pourquoi vous avez travaillé ainsi, ce que l'IA accélère, ce qu'elle ne remplace pas (comprendre le besoin, décider des critères, vérifier le résultat).]
+J'ai utilisé l'IA pour avancer plus rapidement sur la partie technique, mais il fallait quand même définir précisément le besoin et vérifier que le résultat correspondait à ce qui était attendu. Elle est utile pour proposer une solution et aider à résoudre des problèmes, mais elle ne remplace pas la compréhension du projet ni la vérification du code. Pour moi, le plus important est de pouvoir expliquer les choix effectués et de savoir faire évoluer la solution.
