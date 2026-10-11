@@ -1,0 +1,8 @@
+# Bases locales et fichiers générés
+*.sqlite
+*.sqlite-journal
+.env
+node_modules/
+vendor/
+dist/
+_depot/
