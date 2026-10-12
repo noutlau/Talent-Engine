@@ -249,7 +249,7 @@ J'ai utilisé l'IA comme un binôme de développement, et je préfère être tra
 
 **Ce que l'IA a fait**
 
-- **Cahier des charges** : [À COMPLÉTER : par exemple « une première version a été rédigée avec un assistant IA à partir de ma compréhension du besoin, puis je l'ai relue et ajustée »].
+- **Cahier des charges** : rédigé par mes soins à partir de ma compréhension du besoin, puis soumis à un assistant IA (Perplexity) pour amendement, amélioration de la formulation et clarification de certains points. Le contenu a ensuite été relu et ajusté par mes soins.
 - **Code et documentation** : l'essentiel du code (API Laravel, interface React, moteur de scoring, tests) et de ce README a été
   généré avec **Claude Code** (Anthropic), un agent de programmation qui écrit le code, l'exécute et le teste.
   Il a d'abord produit un prototype en PHP natif (dossier `archive/`), puis j'ai demandé de le refaire sur ma stack.
